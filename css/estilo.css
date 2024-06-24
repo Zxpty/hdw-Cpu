@@ -1,0 +1,93 @@
+@font-face{
+
+font-family:"Roboto-Black";
+src:url("../fonts/Roboto-Black.ttf");
+
+}
+
+html{
+
+	height:100%;
+}
+
+
+body{
+
+background-image:linear-gradient(to top, #000 0%,#fff 100%);
+background-repeat:no-repeat;
+background-size:cover;
+height:100%;
+margin:0;
+font-family:Roboto-Black;
+
+}
+
+
+
+
+#grupo{
+margin:auto;
+width:30%;
+background-color: white;
+border-style:none;
+box-shadow:black 0px 3px 3px;
+border-radius:20px;
+
+}
+
+
+.txt{
+
+height:40px;
+width:80%;
+background-image:url('../sesion.png');
+background-repeat: no-repeat;
+background-position:left center;
+padding-left:50px;
+font-family:Roboto-Black;
+font-size:20px;
+
+border-left-style:none;
+border-top-style:none;
+border-right-style:none;
+
+margin-bottom:20px;
+
+}
+
+
+
+
+.pwd{
+height:40px;
+width:80%;
+background-image:url('../pass.png');
+background-repeat: no-repeat;
+background-position:left center;
+padding-left:50px;
+font-family:Roboto-Black;
+font-size:20px;
+
+border-left-style:none;
+border-top-style:none;
+border-right-style:none;
+
+margin-bottom:20px;
+}
+
+
+.btn{
+height:40px;
+font-family:Roboto-Black;
+margin-bottom:20px;
+width:90%;
+
+}
+
+
+
+#titulo{
+
+color:white;
+
+}
